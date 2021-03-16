@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Web Page</title>
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+        <link rel="stylesheet" href="/src/styles/all.min.css">
+        <link rel="stylesheet" href="/src/styles/index.css">
+    </head>
+
+    <body>
+        <nav id="navbar" class="nav">
+            <ul class="nav__links">
+                <li><a href="#welcome-section">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Conact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="welcome-section" class="welcome-section">
+                <h1>Hey, I'm Sed</h1>
+                <p>a web developer</p>
+            </section>
+            <section id="projects" class="projects">
+                <h2 class="projects__header">These are some of my projects<sup>*</sup></h2>
+                <div class="projects__container">
+                    <a id="profile-link" class="project project-tile"
+                        href="https://bitbucket.org/sedky/product-landing-page/" target="_blank">
+                        <img class="project__image" src="src/images/fcc-fedoras-galore.png"
+                            alt="Landing page for website Fedoras Galore" />
+                        <p class="project__title">
+                            <span class="project__title--span"><</span>
+                                    Fedoras Galore
+                                    <span class="project__title--span">/></span>
+                        </p>
+                    </a>
+                    <a id="profile-link" class="project project-tile" href="https://bitbucket.org/sedky/survey-form/"
+                        target="_blank">
+                        <img class="project__image" src="src/images/fcc-survey-form.png"
+                            alt="Landing page for website Survey Form" />
+                        <p class="project__title">
+                            <span class="project__title--span"><</span>
+                                    Survey Form
+                                    <span class="project__title--span">/></span>
+                        </p>
+                    </a>
+                    <a id="profile-link" class="project project-tile"
+                        href="https://bitbucket.org/sedky/technical-documentation-page" target="_blank">
+                        <img class="project__image" src="src/images/fcc-technical-documentation.png"
+                            alt="Landing page for website Technical Documentation" />
+                        <p class="project__title">
+                            <span class="project__title--span"><</span>
+                                    Technical Documentation
+                                    <span class="project__title--span">/></span>
+                        </p>
+                    </a>
+                </div>
+            </section>
+            <section id="contact" class="contact-section">
+                <div class="contact-section__header">
+                    <h2>Let's work together...</h2>
+                    <p>How do you take your coffee?</p>
+                </div>
+                <div class="contact-section__links">
+                    <a class="btn contact-section__details" href="https://github.com/sedstan" target="_blank">
+                        <i class="fab fa-github"></i>
+                        Github</a>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="footer">
+            <p>Copyright Sedky Said &copy; <span id="year"></span> </p>
+            <p>*<sub>The projects listed here are not production ready. They were created for learning purposes.</sub></p>
+        </footer>
+        <script type="text/javascript" src="/src/index.js"></script>
+        <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
